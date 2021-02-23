@@ -239,3 +239,58 @@ footer {
     font-family: Courier;
     font-size: 12px;
 }
+
+@media screen and (max-width: 900px) {
+    .hero-text h1 {
+        font-size: 50px;
+    }
+
+    blockquote {
+        padding: 30px;
+    }
+
+    .description-text h2 {
+        font-size: 2em;
+    }
+
+    .description-image img {
+        width: 350px;
+    }
+
+    .description-text p {
+        font-size: 1.25em;
+    }
+
+    .bio {
+        padding: 25px;
+    }
+
+    .bio-image img {
+        width: 350px;
+        margin-right: 15px;
+    }
+
+    .bio-info p {
+        font-size: 14px;
+    }
+
+    .bio-info {
+        margin-left: 35px;
+        width: 400px;
+    }
+
+    .bio-text img {
+        height: 75px;
+        width: 250px;
+        margin: 2px 0 0 100px;
+    }
+
+    .facts-1, .facts-2 {
+        margin: auto;
+    }
+
+    td {
+        padding: 7px;
+    }
+
+}
